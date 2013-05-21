@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Global Quick Search Plugin", "Global Quick Search Plugin\Global Quick Search Plugin.csproj", "{08727D59-D3D8-44D2-8744-BF51D77238CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalAdvanceFind_SL", "GlobalAdvanceFind_SL\GlobalAdvanceFind_SL.csproj", "{E9F5C29F-7A21-477B-B46A-49FF0A8E4C56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_SL.Web", "Test_SL.Web\Test_SL.Web.csproj", "{77E0FA08-2F0D-45F3-A3D9-2DFB23D0F006}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs23
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Global\u0020Quick\u0020Search\u0020Plugin\\Global\u0020Quick\u0020Search\u0020Plugin.csproj
+		SccProjectName1 = Global\u0020Quick\u0020Search\u0020Plugin
+		SccLocalPath1 = Global\u0020Quick\u0020Search\u0020Plugin
+		SccProjectUniqueName2 = GlobalAdvanceFind_SL\\GlobalAdvanceFind_SL.csproj
+		SccProjectName2 = GlobalAdvanceFind_SL
+		SccLocalPath2 = GlobalAdvanceFind_SL
+		SccProjectUniqueName3 = Test_SL.Web\\Test_SL.Web.csproj
+		SccProjectName3 = Test_SL.Web
+		SccLocalPath3 = Test_SL.Web
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08727D59-D3D8-44D2-8744-BF51D77238CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08727D59-D3D8-44D2-8744-BF51D77238CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08727D59-D3D8-44D2-8744-BF51D77238CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08727D59-D3D8-44D2-8744-BF51D77238CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9F5C29F-7A21-477B-B46A-49FF0A8E4C56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9F5C29F-7A21-477B-B46A-49FF0A8E4C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9F5C29F-7A21-477B-B46A-49FF0A8E4C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9F5C29F-7A21-477B-B46A-49FF0A8E4C56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77E0FA08-2F0D-45F3-A3D9-2DFB23D0F006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77E0FA08-2F0D-45F3-A3D9-2DFB23D0F006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77E0FA08-2F0D-45F3-A3D9-2DFB23D0F006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77E0FA08-2F0D-45F3-A3D9-2DFB23D0F006}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
