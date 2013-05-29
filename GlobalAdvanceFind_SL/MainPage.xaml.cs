@@ -24,11 +24,13 @@ namespace GlobalAdvanceFind_SL
         XDocument xdoc;
         XElement xfetchXml;
         private List<QuickSearchFetchXml> qsfetchXmlList = new List<QuickSearchFetchXml>();
+        private string ServerBaseUrl = string.Empty;
 
         public MainPage()
         {
             InitializeComponent();
             textBoxSearch.IsEnabled = false;
+            ServerBaseUrl = SilverlightUtility.GetServerBaseUrl().ToString();
             RetrieveQuickSerchFetchXml();
         }
 
@@ -325,7 +327,12 @@ namespace GlobalAdvanceFind_SL
                     #region Entity DataGrid
                     myBindableDG.Name = qsfx.DataGridName;
                     myBindableDG.CRMSourceEntity = qsfx.EntityLogicalName;
-                    myBindableDG.ServerBaseUrl = SilverlightUtility.GetServerBaseUrl().ToString();
+
+                    if (ServerBaseUrl.EndsWith("/"))
+                        myBindableDG.ServerBaseUrl = ServerBaseUrl.Substring(0, ServerBaseUrl.Length - 1);
+                    else
+                        myBindableDG.ServerBaseUrl = ServerBaseUrl;
+
                     myBindableDG.AutoGenerateColumns = false;
                     myBindableDG.DataSource = ds;
                     myBindableDG.DataMember = "EntityDataTable";

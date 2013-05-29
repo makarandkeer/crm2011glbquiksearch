@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Global Quick Search Plugin", "Global Quick Search Plugin\Global Quick Search Plugin.csproj", "{08727D59-D3D8-44D2-8744-BF51D77238CD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalAdvanceFind_SL", "GlobalAdvanceFind_SL\GlobalAdvanceFind_SL.csproj", "{E9F5C29F-7A21-477B-B46A-49FF0A8E4C56}"
